@@ -1,3 +1,8 @@
+PATH
+  remote: .
+  specs:
+    airspace-jekyll (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -24,9 +29,9 @@ GEM
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
     mercenary (0.3.6)
-    minima (1.2.0)
     pathutil (0.14.0)
       forwardable-extended (~> 2.6)
+    rake (10.4.2)
     rb-fsevent (0.9.7)
     rb-inotify (0.9.7)
       ffi (>= 0.5.0)
@@ -38,11 +43,10 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  jekyll (= 3.2.1)
-  minima
-
-RUBY VERSION
-   ruby 2.2.3p173
+  airspace-jekyll!
+  bundler (~> 1.12)
+  jekyll (~> 3.2)
+  rake (~> 10.0)
 
 BUNDLED WITH
    1.13.1
